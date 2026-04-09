@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MET IOE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3 class="text-center py-3">MET IOE</h3>
+        <a href="#">Dashboard</a>
+        <a href="#">Students</a>
+        <a href="#">Faculty</a>
+        <a href="#">Courses</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-light bg-light mb-4 rounded">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h4">MET IOE</span>
+            </div>
+        </nav>
+
+        <!-- Cards -->
+        <div class="row g-4">
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-3 text-center bg-primary text-white">
+                    <h5>Total Students</h5>
+                    <h2>1200</h2>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-3 text-center bg-success text-white">
+                    <h5>Faculty</h5>
+                    <h2>150</h2>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-3 text-center bg-warning text-dark">
+                    <h5>Courses</h5>
+                    <h2>45</h2>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-3 text-center bg-danger text-white">
+                    <h5>Revenue</h5>
+                    <h2>₹10L</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Table Section -->
+        <div class="mt-5">
+            <h4>Recent Students</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Course</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>45</td>
+                            <td>Hemant Patil</td>
+                            <td>T.E IT</td>
+                            <td><span class="badge bg-success">Active</span></td>
+                        </tr>
+                        <tr>
+                            <td>46</td>
+                            <td>Shirish Pawar</td>
+                            <td>T.E. IT</td>
+                            <td><span class="badge bg-warning text-dark">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>47</td>
+                            <td>Bharat Andhale</td>
+                            <td>T.E. IT</td>
+                            <td><span class="badge bg-danger">Inactive</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
